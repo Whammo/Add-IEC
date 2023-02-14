@@ -358,9 +358,9 @@ These commands should never be used by anyone. Ever.
 
 Commands for ``second and tksa`` include:
 
-- 60 OPEN CHANNEL / DATA + Secondary Address / channel (0-15)
-- E0 CLOSE + Secondary Address / channel (0-15)
-- F0 OPEN + Secondary Address / channel (0-15)
+- $60 OPEN CHANNEL / DATA + Secondary Address / channel (0-15)
+- $E0 CLOSE + Secondary Address / channel (0-15)
+- $F0 OPEN + Secondary Address / channel (0-15)
 ====
 
 ==== IEC examples
@@ -368,7 +368,7 @@ Commands for ``second and tksa`` include:
 ((send-cmd)) _( c-addr u -- )_ :: Same as Dos command.
 ((dos)) _( "cmd" -- )_ :: Same as Dos command.
 ((bsave)) _( start end+1 filenameptr filenamelength -- )_ :: Same as saveb.
-((dir)) :: Same as ``ls`` but reads directory on the fly.
+((dir)) :: Same as ``ls``.
 
 === Compatibility
 
